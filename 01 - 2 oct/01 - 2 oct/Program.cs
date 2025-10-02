@@ -7,3 +7,7 @@ int number = rnd.Next(1, 101);
 // 56, 58, 67, 42
 
 Console.WriteLine(number);
+Console.WriteLine(number);
+Console.WriteLine(number);
+Console.WriteLine(number);
+Console.WriteLine(number);
