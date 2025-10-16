@@ -1,7 +1,7 @@
 ﻿
 using System.Text;
 
-int n = 125894;
+int n = 42;
 
 Console.WriteLine(ConvertToBase2(n));
 
@@ -19,6 +19,6 @@ string ConvertToBase2(int n)
     {
         sb.Append(st.Pop().ToString());
     }
-
+   
     return sb.ToString();
 }
