@@ -1,4 +1,5 @@
 ﻿StreamReader sr = new StreamReader("input.txt");
+
 string line; 
 List<int> list1 = new List<int>();
 List<int> list2 = new List<int>();
@@ -8,6 +9,8 @@ while((line = sr.ReadLine()) != null)
     list1.Add(int.Parse(tokens[0]));
     list2.Add(int.Parse(tokens[1]));
 }
+
+
 
 list1.Sort();
 list2.Sort();
